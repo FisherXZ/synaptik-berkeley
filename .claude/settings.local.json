@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 wiki_guard.py:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(echo \"$TOOL_INPUT\" | grep -oE 'wiki/[^\"]*.md' | head -1); if [ -n \"$FILE\" ] && [ -f wiki_guard.py ]; then python3 wiki_guard.py validate \"$FILE\" 2>/dev/null || true; fi",
+            "statusMessage": "Validating wiki page"
+          }
+        ]
+      }
+    ]
+  }
+}
