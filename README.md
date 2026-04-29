@@ -1,10 +1,11 @@
+
 # synaptik-berkeley
 
 **[synaptik](https://github.com/FisherXZ/synaptik) pre-loaded with Berkeley's most popular courses.**
 
 An AI-maintained knowledge base with real lecture materials from UC Berkeley's highest-enrollment classes. Three courses come fully ingested as demos — the rest have raw materials ready for you to `/ingest`.
 
-![Obsidian graph view of the CS 61A wiki — cross-linked concept pages built from real lecture materials](assets/obsidian-graph.png)
+<img width="1012" height="815" alt="Screenshot 2026-04-29 at 15 52 09" src="https://github.com/user-attachments/assets/4e7f9df5-535c-4054-844a-d4ab4fe19469" />
 
 ## Courses
 
@@ -31,17 +32,19 @@ An AI-maintained knowledge base with real lecture materials from UC Berkeley's h
 
 ## See it in action
 
-A real compiled page from CS 61A — built from `04-Higher-Order_Functions.pdf` and `05-Environments.pdf`, cross-linked to related concepts, with provenance tags on every claim:
+A real compiled page from NEU 100B — built from lecture pdfs, cross-linked to related concepts, with provenance tags on every claim:
 
-![wiki/cs61a/higher_order_function.md rendered in Obsidian](assets/compiled-page-cs61a.png)
+<img width="673" height="697" alt="Screenshot 2026-04-29 at 15 45 19" src="https://github.com/user-attachments/assets/eaadd60b-cd56-45a3-8392-46f82075d6ea" />
 
 Quiz yourself on it. When you get one wrong, the explanation walks you through it — and the miss gets logged to `gaps.md` for next session:
 
-![/quiz higher_order_function — question, wrong answer, 5-element tutoring correction](assets/quiz-cs61a.png)
+<img width="814" height="636" alt="Screenshot 2026-04-29 at 15 51 47" src="https://github.com/user-attachments/assets/8569ad3b-f7dd-4788-8afc-c2aeb4e5d77c" />
 
-Ask for a ground-up explanation and you get a proper diagram, not ASCII art:
 
-![/explain environment_diagram — SVG diagram showing frames, bindings, and parent pointers](assets/explain-diagram.png)
+Ask for a ground-up explanation and you get a visual breakdown:
+
+<img width="1019" height="613" alt="Screenshot 2026-04-29 at 15 49 15" src="https://github.com/user-attachments/assets/7d331b33-0259-42ad-9004-996b5874c623" />
+<img width="1205" height="642" alt="Screenshot 2026-04-29 at 15 50 18" src="https://github.com/user-attachments/assets/9a339f1b-4d1c-4711-a99b-a91d88653027" />
 
 ## All materials are from public course websites
 
