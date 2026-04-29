@@ -44,6 +44,7 @@ Quiz yourself on it. When you get one wrong, the explanation walks you through i
 Ask for a ground-up explanation and you get a visual breakdown:
 
 <img width="1019" height="613" alt="Screenshot 2026-04-29 at 15 49 15" src="https://github.com/user-attachments/assets/7d331b33-0259-42ad-9004-996b5874c623" />
+
 <img width="1205" height="642" alt="Screenshot 2026-04-29 at 15 50 18" src="https://github.com/user-attachments/assets/9a339f1b-4d1c-4711-a99b-a91d88653027" />
 
 ## All materials are from public course websites
